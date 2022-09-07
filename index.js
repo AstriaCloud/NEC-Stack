@@ -74,7 +74,7 @@ app.use(
 // ====================================================== //
 
 app.use(function(req, res, next) {
-    res.setHeader("x-powered-by", " ⭐ Powered By Magic 🦄 ");
+    res.setHeader("x-powered-by", " Powered By Magic ");
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Credentials', 'true');
     res.header('Access-Control-Allow-Methods', 'GET, POST');
